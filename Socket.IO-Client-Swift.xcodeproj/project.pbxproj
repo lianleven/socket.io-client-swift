@@ -73,6 +73,7 @@
 		1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNamespacePacketTest.swift; sourceTree = "<group>"; };
 		1C686BFE1F869E9D007D8627 /* SocketObjectiveCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketObjectiveCTest.m; sourceTree = "<group>"; };
 		3A1A788828662A2600289A80 /* SocketIOWaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOWaper.swift; sourceTree = "<group>"; };
+		3A1A788A28662B8200289A80 /* Socket.IO-Client-Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Socket.IO-Client-Swift.podspec"; sourceTree = "<group>"; };
 		572EF2381B51F18A00EEBB58 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EF23B1B51F18A00EEBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EF23C1B51F18A00EEBB58 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 		572EF20D1B51F12F00EEBB58 = {
 			isa = PBXGroup;
 			children = (
+				3A1A788A28662B8200289A80 /* Socket.IO-Client-Swift.podspec */,
 				1C686BD11F869AF1007D8627 /* TestSocketIO */,
 				1C686BFD1F869E9D007D8627 /* TestSocketIOObjc */,
 				6CA08A9B1D615C190061FD2A /* Frameworks */,

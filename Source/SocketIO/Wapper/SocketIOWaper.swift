@@ -8,9 +8,9 @@
 import Foundation
 
 open class SocketIOWaper: NSObject {
-    @objc(shared)
-    static let `default` = SocketIOWaper()
-    private override init(){}
+//    @objc(shared)
+//    static let `default` = SocketIOWaper()
+//    private override init(){}
     
     @objc public var socket: SocketIOClient?
     @objc public var manage: SocketManager?
