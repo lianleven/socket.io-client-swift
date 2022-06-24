@@ -6,18 +6,18 @@
 //
 
 import Foundation
-//import
-import SocketIO
-class SocketIOWaper: NSObject {
+
+open class SocketIOWaper: NSObject {
     @objc(shared)
     static let `default` = SocketIOWaper()
     private override init(){}
     
-    var socket: SocketIOClient?
-    var manage: SocketManager?
-    var logTextAction:((_ log: String) -> ())?
+    @objc public var socket: SocketIOClient?
+    @objc public var manage: SocketManager?
+    @objc public var logTextAction:((_ log: String) -> ())?
     
-    @objc func connect(_ host: String) {
+    @objc
+    open func connect(_ host: String) {
         if self.socket?.status == .connecting {
             self.logTextAction?("正在连接")
             return

@@ -18,6 +18,7 @@
 		1C686BE61F869AFD007D8627 /* SocketAckManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BD61F869AF1007D8627 /* SocketAckManagerTest.swift */; };
 		1C686BE71F869AFD007D8627 /* SocketParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BD71F869AF1007D8627 /* SocketParserTest.swift */; };
 		1C686BE81F869AFD007D8627 /* SocketNamespacePacketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */; };
+		3A1A788928662A2600289A80 /* SocketIOWaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1A788828662A2600289A80 /* SocketIOWaper.swift */; };
 		572EF2431B51F18A00EEBB58 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572EF2381B51F18A00EEBB58 /* SocketIO.framework */; };
 		6CA08A981D615C0B0061FD2A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA08A971D615C0B0061FD2A /* Security.framework */; };
 		74BF53581F894326004972D8 /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 572EF23C1B51F18A00EEBB58 /* SocketIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,6 +72,7 @@
 		1C686BD71F869AF1007D8627 /* SocketParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketParserTest.swift; sourceTree = "<group>"; };
 		1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNamespacePacketTest.swift; sourceTree = "<group>"; };
 		1C686BFE1F869E9D007D8627 /* SocketObjectiveCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketObjectiveCTest.m; sourceTree = "<group>"; };
+		3A1A788828662A2600289A80 /* SocketIOWaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOWaper.swift; sourceTree = "<group>"; };
 		572EF2381B51F18A00EEBB58 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EF23B1B51F18A00EEBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EF23C1B51F18A00EEBB58 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
@@ -176,6 +178,15 @@
 			path = Tests/TestSocketIOObjc;
 			sourceTree = "<group>";
 		};
+		3A1A788728662A2600289A80 /* Wapper */ = {
+			isa = PBXGroup;
+			children = (
+				3A1A788828662A2600289A80 /* SocketIOWaper.swift */,
+			);
+			name = Wapper;
+			path = Source/SocketIO/Wapper;
+			sourceTree = "<group>";
+		};
 		572EF20D1B51F12F00EEBB58 = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +228,7 @@
 		5764DF7B1B51F24A004FF46E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3A1A788728662A2600289A80 /* Wapper */,
 				DD52BB6512B5400E2A3A39F2 /* Engine */,
 				DD52BF863FC00831DC047241 /* Ack */,
 				DD52B6A0966AF71393777311 /* Client */,
@@ -480,6 +492,7 @@
 				DD52B56DE03CDB4F40BD1A23 /* SocketExtensions.swift in Sources */,
 				DD52B11AF936352BAE30B2C8 /* SocketStringReader.swift in Sources */,
 				DD52B57E7ABC61B57EE2A4B8 /* SocketPacket.swift in Sources */,
+				3A1A788928662A2600289A80 /* SocketIOWaper.swift in Sources */,
 				DD52B9412F660F828B683422 /* SocketParsable.swift in Sources */,
 				1C6572803D7E252A77A86E5F /* SocketManager.swift in Sources */,
 				1C657FBB3F670261780FD72E /* SocketManagerSpec.swift in Sources */,
